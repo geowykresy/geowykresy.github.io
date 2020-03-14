@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Prezentacja zawsze aktualnych wykresów geodezyjnych">
+  <meta name="author" content="Adam Stachowski">
+  <script>function wykresk4p3w1() {
+ document.getElementById("wykresk4p3w1").style.display = "block"; 
+ document.getElementById("body").style.display = "none"; 
+}
+
+function wykresk4p3w2() {
+ document.getElementById("wykresk4p3w2").style.display = "block"; 
+ document.getElementById("body").style.display = "none"; 
+}
+
+function wykresk4p3w3() {
+ document.getElementById("wykresk4p3w3").style.display = "block"; 
+ document.getElementById("body").style.display = "none"; 
+}
+
+
+
+function exit() {
+ document.getElementById("wykresk4p3w1").style.display = "none"; 
+ document.getElementById("wykresk4p3w2").style.display = "none"; 
+ document.getElementById("wykresk4p3w3").style.display = "none"; 
+ 
+ document.getElementById("body").style.display = "block"; 
+}</script> 
+  <title>Geowykresy</title>
+
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+
+</head>
+
+<body>
+<div id="wykresk4p3w1" style="display: none">
+	<div class="blackcover">
+		<div class="extra prompt row">
+			<div >
+				<div class="x" onClick="exit()"><a>x</a></div>
+				<a><img src="files/plots/mapy/kl7str74lasy.png"  width="100%"/></a>
+			</div>
+			<div class="grayness downloadbutton topdown2">
+				<a href="files/plots/mapy/kl7str74lasy.png" alt="wykres" download="kl7str74lasy.png">Pobierz .png</a>
+			</div>
+			<div class="grayness downloadbutton topdown2">
+				<a href="files/plots/mapy/kl7str74lasy.xlsx" alt="wykres" download="kl7str74lasy.xlsx">Pobierz .xlsx</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="wykresk4p3w2" style="display: none">
+	<div class="blackcover">
+		<div class="extra prompt row">
+			<div >
+				<div class="x" onClick="exit()"><a>x</a></div>
+				<a><img src="files/plots/mapy/kl7str112.png"  width="100%"/></a>
+			</div>
+			<div class="grayness downloadbutton topdown2">
+				<a href="files/plots/mapy/kl7str112.png" alt="wykres" download="kl7str112.png">Pobierz .png</a>
+			</div>
+			<div class="grayness downloadbutton topdown2">
+				<a href="images/animacja.gif" alt="wykres" download="kl7str112.gif">Pobierz .gif</a>
+			</div>
+			<div class="grayness downloadbutton topdown2">
+				<a href="files/plots/mapy/kl7str112bezrobocie.xlsx" alt="wykres" download="kl7str112bezrobocie.xlsx">Pobierz .xlsx</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="wykresk4p3w3" style="display: none">
+	<div class="blackcover">
+		<div class="extra prompt row">
+			<div >
+				<div class="x" onClick="exit()"><a>x</a></div>
+				<a><img src="files/plots/mapy/kl7str116.png"  width="100%"/></a>
+			</div>
+			<div class="grayness downloadbutton topdown2">
+				<a href="files/plots/mapy/kl7str116.png" alt="wykres" download="kl7str116.png">Pobierz .png</a>
+			</div>
+			<div class="grayness downloadbutton topdown2">
+				<a href="files/plots/mapy/kl7str116mieszkancy.xlsx" alt="wykres" download="kl7str116mieszkancy.xlsx">Pobierz .xlsx</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="body" style="background-color:#f8f8fa;">
+	<div class="row whiteness menu">
+	<div class="container">
+		<nav class="navbar">
+			<div class="row">
+			<a href="index.html">
+				<img src="images/logo.png" height="60px">
+			</a>
+			</div>
+			<div class="row">
+				<a class="nav-link" href="index.html">Strona główna</a>
+				<a class="nav-link" href="ostronie.html">O stronie</a>
+				<a class="nav-link" href="Kontakt.html">Kontakt</a>
+			</div>
+		</nav>
+	</div>
+</div>
+	<div class="container">
+		<div class="col">
+			<div class="col-lg-12 text-center">
+				<h1 class="mt-4">Mapy</h1>
+				<p class="lead">Poprawione i zaktualizowane wykresy z podręcznika geografii „Planeta Nowa - klasy VI - VIII Nowa Era"</p>
+				<div class="col-sm onemore">	
+					<div class="row">
+						  <div class="col-sm-4">
+						  <div class="justwhite">
+						  <li class="nav-item">
+							<a class="nav-link" href="#" onClick="wykresk4p3w1()">Klasa 7, strona 74 <hr>
+							</br><h6 class=" linia">Wskaźnik lesistości wg województw w Polsce w 2015 r.</h6>
+							<img class="image" style="padding-bottom: 10px;" src="files/plots/mapy/jeden.png"/>
+							<p>&nbsp;</p>
+							</a>
+						  </li>
+						  </div>
+						  </div>
+						  
+						  <div class="col-sm-4">
+						  <div class="justwhite">
+						  <li class="nav-item">
+							<a class="nav-link" href="#" onClick="wykresk4p3w2()">Klasa 7, strona 112<hr>
+							</br><h6 class=" linia">Stopa bezrobocia rejestrowanego w Polsce w 2016 r. </h6>
+							<img class="image " style="padding-bottom: 10px;" src="images/animacja.gif"/>
+							<p>&nbsp;</p>
+							</a>
+						  </li>
+						  </div>
+						  </div>
+						  
+						  <div class="col-sm-4">
+						  <div class="justwhite">
+						  <li class="nav-item">
+							<a class="nav-link" href="#" onClick="wykresk4p3w3()">Klasa 7, strona 116<hr>
+							</br><h6 class=" linia">Wskaźnik urbanizacji w Polsce w 2016 r.</h6> 
+							</br><img class="image " style="padding-bottom: 10px;" src="files/plots/mapy/trzy.png"/>
+							<p>&nbsp;</p>
+							</a>
+						  </li>
+						  </div>
+						  </div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="footer-copyright text-center py-3"><a href="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0</a> &copy; Adam Stachowski</div>
+</footer>
+	
+ 
+  <script src="jquery/jquery.slim.min.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

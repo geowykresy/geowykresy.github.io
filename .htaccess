@@ -1,0 +1,5 @@
+﻿RewriteEngine On
+Options -Indexes
+AddType application/octet-stream .png	
+AddType application/octet-stream .xlsx
+AddType application/octet-stream .gif
